@@ -1,0 +1,80 @@
+/* Reset CSS avec unités rem */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+html {
+    font-size: 62.5%; /* 1rem = 10px, 10px/16px = 62.5% */
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%; /* 1rem = 10px */
+    vertical-align: baseline;
+    line-height: 1.5;
+}
+
+/* Supprime les styles de base pour tous les éléments */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1.6rem; /* 16px */
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+}
+
+/* Style de base pour le corps du document */
+body {
+    line-height: 1.5;
+    font-size: 1.6rem; /* 16px */
+    font-family: sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Liste sans puces */
+ol, ul {
+    list-style: none;
+}
+
+/* Style des liens */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Style des tableaux */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Supprime les styles par défaut des éléments HTML5 */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Formulaires */
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* Supprime les styles par défaut des boutons et inputs */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+/* Supprime le style par défaut des éléments qui ont un focus */
+:focus {
+    outline: none;
+}

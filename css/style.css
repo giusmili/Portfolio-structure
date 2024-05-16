@@ -1,0 +1,71 @@
+@import url(reset.css);
+body {
+    display: grid;
+    font-family: "Roboto Slab";
+    grid-template-rows: auto fr auto;
+    min-height: 100svh;
+   
+}
+
+header{
+    background-color: #333;
+ 
+    padding: 1rem 0;
+    text-align: center;
+}
+header h1{
+    color: #fff;
+    font-size: xx-large;
+    padding: 2rem 0;
+}
+.container {
+    max-width: 90rem;
+    margin: 2rem auto;
+}
+section h2 {
+    color: #333;
+    font-size: x-large;
+}
+section p{
+    padding: 2rem 0;
+}
+.skills, .projects {
+    margin: 2rem 0;
+    line-height: 2.5rem;
+    
+}
+.projects strong{
+    font-weight: bold;
+}   
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+   
+}
+.skills li {
+    background: #e6e4e4fa;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.1);
+    line-height: 4.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+
+}
+.skills li strong{
+    font-weight: bolder;
+}
+.skills li p{
+    padding: 0;
+    text-transform: lowercase;
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    padding: 3rem 0;
+    bottom: 0;
+}
