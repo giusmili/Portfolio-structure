@@ -14,4 +14,5 @@
 
     Compétences en CSS3, utilisation avancée du display flexbox et Grid pour des mises en page réactives, et expérience avec les préprocesseurs SASS et LESS pour une gestion efficace des styles.
  
+Voir la page [Publication](https://giusmili.github.io/Portfolio-structure/)
 [![forthebadge](https://forthebadge.com/images/featured/featured-uses-html.svg)](https://forthebadge.com)
