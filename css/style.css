@@ -26,6 +26,9 @@ section h2 {
     color: #333;
     font-size: x-large;
 }
+section img{
+    width: 100%;
+}
 section p{
     padding: 2rem 0;
 }
