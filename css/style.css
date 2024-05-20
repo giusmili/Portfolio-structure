@@ -69,3 +69,6 @@ footer {
     padding: 3rem 0;
     bottom: 0;
 }
+footer img{
+    vertical-align: middle;
+}
